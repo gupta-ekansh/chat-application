@@ -1,4 +1,5 @@
-const socket = io("http://localhost:8000");
+// const socket = io("http://localhost:8000");
+const socket = io("https://cleverorangelivedistro.ekanshgupta7.repl.co");
 
 const form = document.getElementById('send-container');
 const messageInput = document.getElementById('messageInp');

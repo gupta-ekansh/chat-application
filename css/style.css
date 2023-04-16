@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Poppins&display=swap');
+
+.heading {
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+}
+.logo {
+    /* display: inline; */
+    /* margin: auto; */
+    width: 50px;
+    height: 50px; 
+}
+.collection {
+    /* background-color: red; */
+    margin-left: 35%;
+}
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(121,9,85,1) 0%, rgba(0,212,255,1) 100%);
+}
+.container{
+    max-width: 955px;
+    /* background-color: red; */
+    /* border: 2px solid black; */
+    padding: 50px;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+.message {
+    background-color:lightgray;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float:right;
+    clear:both;
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+}
+#messageInp{
+    width: 92%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
